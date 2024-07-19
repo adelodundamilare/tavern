@@ -4,6 +4,7 @@ import Image from "next/image";
 import { buttonVariants } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
 import Logos from "@/components/logos";
+import DynamicText from "@/components/dynamic-text";
 
 export default function Home() {
   return (
@@ -30,7 +31,7 @@ export default function Home() {
 
       <section className="container mx-auto min-h-[85vh] sm:min-h-0 grid place-content-center px-4 py-20 text-center">
         <h1 className="text-5xl font-bold mb-4">
-          WE CRAFT WEB
+          WE <DynamicText words={["DESIGN", "CODE", "CRAFT"]} /> WEB
           <br />
           <span className="text-primary tracking-[3.25px]">EXPERIENCES</span>
         </h1>
