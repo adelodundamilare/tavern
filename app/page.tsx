@@ -33,7 +33,7 @@ export default function Home() {
       </nav>
 
       <main>
-        <section className="container mx-auto min-h-[85vh] sm:min-h-0 grid place-content-center px-4 py-20 text-center">
+        <section className="container mx-auto min-h-[75vh] sm:min-h-0 grid place-content-center px-4 py-20 text-center">
           <h1 className="text-5xl font-bold mb-4">
             WE <DynamicText words={["DESIGN", "CODE", "CRAFT"]} /> WEB
             <br />
