@@ -43,7 +43,7 @@ const logos = [
 export default function Logos() {
   return (
     <div className="absolute bottom-4 flex justify-center space-x-4 mt-8 w-full">
-      <div className="logos group relative overflow-hidden whitespace-nowrap py-10 [mask-image:_linear-gradient(to_right,_transparent_0,_white_128px,white_calc(100%-128px),_transparent_100%)]">
+      <div className="group relative overflow-hidden whitespace-nowrap  py-10 [mask-image:_linear-gradient(to_right,_transparent_0,_white_128px,white_calc(100%-128px),_transparent_100%)]">
         <div className="animate-slide-left-infinite group-hover:animation-pause inline-block w-max">
           {logos.map((logo, index) => (
             <Image
@@ -51,9 +51,9 @@ export default function Logos() {
               src={logo.src}
               alt={logo.alt}
               sizes={logo.srcSet}
-              className="mx-4 inline opacity-50 hover:opacity-100"
-              width={100}
-              height={50}
+              className="mx-12 inline opacity-50 hover:opacity-100"
+              width={110}
+              height={60}
             />
           ))}
         </div>
@@ -65,9 +65,9 @@ export default function Logos() {
               src={logo.src}
               alt={logo.alt}
               sizes={logo.srcSet}
-              className="mx-4 inline opacity-50 hover:opacity-100"
-              width={100}
-              height={50}
+              className="mx-12 inline opacity-50 hover:opacity-100"
+              width={110}
+              height={60}
             />
           ))}
         </div>

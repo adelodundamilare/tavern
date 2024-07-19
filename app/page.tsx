@@ -28,7 +28,7 @@ export default function Home() {
         </div>
       </nav>
 
-      <section className="container mx-auto px-4 py-20 text-center">
+      <section className="container mx-auto min-h-[85vh] sm:min-h-0 grid place-content-center px-4 py-20 text-center">
         <h1 className="text-5xl font-bold mb-4">
           WE CRAFT WEB
           <br />
