@@ -11,7 +11,7 @@ export const metadata: Metadata = {
   title: "Tavern Forge",
   description: "We Craft Web Experiences",
   icons: {
-    icon: "/images/logo.png",
+    icon: ["/images/logo.png"],
   },
 };
 
