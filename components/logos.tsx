@@ -76,6 +76,21 @@ export default function Logos() {
           />
         ))}
       </div>
+
+      <div className="animate-slide-left-infinite group-hover:animation-pause inline-block w-max">
+        {logos.map((logo, index) => (
+          <Image
+            key={index}
+            src={logo.src}
+            alt={logo.alt}
+            sizes={logo.srcSet}
+            className="mx-12 inline opacity-50 hover:opacity-100"
+            width={110}
+            height={60}
+            aria-hidden="true"
+          />
+        ))}
+      </div>
     </div>
   );
 }

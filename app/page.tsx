@@ -59,7 +59,7 @@ export default function Home() {
         </div>
       </section>
 
-      <div className="absolute bottom-4 flex justify-center space-x-4 mt-8 w-full">
+      <div className="absolute bottom-2 flex justify-center space-x-4 mt-8 w-full">
         <Logos />
       </div>
     </div>
