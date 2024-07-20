@@ -9,7 +9,7 @@ export default function Home() {
   return (
     <div
       className="min-h-screen bg-gray-900 text-white"
-      style={{ backgroundImage: "url(/images/Forge_scenery.png)" }}
+      style={{ backgroundImage: "url(/images/Forge_Scenery.png)" }}
     >
       <nav className="p-4" role="navigation" aria-label="Main">
         <div className="flex justify-between items-center">
