@@ -8,7 +8,7 @@ import { buttonVariants } from "@/components/ui/button";
 export default function Home() {
   return (
     <div
-      className="min-h-screen bg-gray-900 text-white"
+      className="min-h-screen bg-[#202225] text-white"
       style={{ backgroundImage: "url(/images/Forge_Scenery.png)" }}
     >
       <nav className="p-6" role="navigation" aria-label="Main">
