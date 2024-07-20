@@ -42,41 +42,39 @@ const logos = [
 
 export default function Logos() {
   return (
-    <div className="sm:absolute relative bottom-4 flex justify-center space-x-4 mt-8 w-full">
-      <div
-        className="group relative overflow-hidden whitespace-nowrap py-10 [mask-image:_linear-gradient(to_right,_transparent_0,_white_128px,white_calc(100%-128px),_transparent_100%)]"
-        role="region"
-        aria-label="Partner Logos"
-      >
-        <div className="animate-slide-left-infinite group-hover:animation-pause inline-block w-max">
-          {logos.map((logo, index) => (
-            <Image
-              key={index}
-              src={logo.src}
-              alt={logo.alt}
-              sizes={logo.srcSet}
-              className="mx-12 inline opacity-50 hover:opacity-100"
-              width={110}
-              height={60}
-              aria-hidden="true"
-            />
-          ))}
-        </div>
+    <div
+      className="group relative overflow-hidden whitespace-nowrap py-10 [mask-image:_linear-gradient(to_right,_transparent_0,_white_128px,white_calc(100%-128px),_transparent_100%)]"
+      role="region"
+      aria-label="Partner Logos"
+    >
+      <div className="animate-slide-left-infinite group-hover:animation-pause inline-block w-max">
+        {logos.map((logo, index) => (
+          <Image
+            key={index}
+            src={logo.src}
+            alt={logo.alt}
+            sizes={logo.srcSet}
+            className="mx-12 inline opacity-50 hover:opacity-100"
+            width={110}
+            height={60}
+            aria-hidden="true"
+          />
+        ))}
+      </div>
 
-        <div className="animate-slide-left-infinite group-hover:animation-pause inline-block w-max">
-          {logos.map((logo, index) => (
-            <Image
-              key={index}
-              src={logo.src}
-              alt={logo.alt}
-              sizes={logo.srcSet}
-              className="mx-12 inline opacity-50 hover:opacity-100"
-              width={110}
-              height={60}
-              aria-hidden="true"
-            />
-          ))}
-        </div>
+      <div className="animate-slide-left-infinite group-hover:animation-pause inline-block w-max">
+        {logos.map((logo, index) => (
+          <Image
+            key={index}
+            src={logo.src}
+            alt={logo.alt}
+            sizes={logo.srcSet}
+            className="mx-12 inline opacity-50 hover:opacity-100"
+            width={110}
+            height={60}
+            aria-hidden="true"
+          />
+        ))}
       </div>
     </div>
   );
